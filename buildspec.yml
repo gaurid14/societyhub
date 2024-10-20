@@ -2,18 +2,12 @@ version: 0.2
 
 phases:
   install:
-    runtime-versions:
-      nodejs: 14 # Example: Set the Node.js version
     commands:
-      - echo Installing dependencies...
-      - npm install # Example: Install dependencies
-
+      - echo No dependencies to install
   build:
     commands:
-      - echo Building the project...
-      - npm run build # Example: Build command for your project
+      - echo No build step required
 
 artifacts:
   files:
-    - '**/*' # Include all files in the artifacts
-  base-directory: build # Change this to your actual build output directory
+    - '**/*'  # Include all files in the artifacts
